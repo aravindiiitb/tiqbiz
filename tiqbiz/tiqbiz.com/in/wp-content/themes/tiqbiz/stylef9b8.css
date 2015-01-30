@@ -1,0 +1,65 @@
+/*
+Theme Name: Tiqbiz
+Theme URI: http://www.tiqbiz.com/
+Author: Invision Marketing
+Author URI: http://www.invision.net.au/
+Description: This is the main theme for the Tiqbiz website.
+Version: 1.0
+Template: kane
+*/
+
+.navbar-brand {
+    height: 60px;
+}
+.sticky-navigation .main-navigation li a:focus {
+    color: #000000;
+}
+
+.wpcf7-form-control-wrap {
+	width: 100%;
+}
+
+.wpcf7-form-control {
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid rgb(204, 204, 204);
+	padding: 12px;
+	line-height: 1.4;
+	color: #555;
+	margin-bottom: 10px;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+input.wpcf7-form-control[type="submit"] {
+	width: auto;
+}
+.wpcf7-form-control:focus {
+	border: 1px solid #a2c614;
+	outline: 0;
+}
+.wpcf7-submit {
+	background: #a2c614;
+	font-size: 18px;
+	color: white;
+	padding: 16px 25px;
+	transition: all ease 0.25s;
+	font-weight: bold;
+}
+.wpcf7-validation-errors {
+	color: #a94442;
+	background-color: #f2dede;
+	border: 1px solid #ebccd1 !important;
+	border-radius: 4px;
+	margin: 0;
+}
+
+@media (min-width: 992px) {
+	.wpcf7-form-control-wrap.your-name, .wpcf7-form-control-wrap.your-email {
+		width: 48%;
+		float: left;
+	}
+
+	.wpcf7-form-control-wrap.your-email {
+		width: 48%;
+		margin-left: 4%;
+	}
+}
